@@ -26,7 +26,6 @@ export default function App() {
       <p>Worked on <a href={link.bgf}>big game fishing</a> boats on the east coast.</p>
       <p>Ran minecraft servers like Nextpvp & NextMC.</p>
       <p>Enjoy <a href={link.goodreads}>reading</a> and <a href={link.chess}>chess</a>.</p>
-      <p>Resume if you are into that sort of thing</p>
     </div>
   );
 }
