@@ -35,30 +35,35 @@ h1 {
   padding-top: 10px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+  font-weight: bold;
 }
 
 h5 {
   padding-top: 0px;
   margin-top: 0px;
-  padding-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 p {
   padding-left: 2px;
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 680px) {
   .Me {
     width: 200px;
     border: 5px solid var(--primary);
   }
 
   h1 {
-    font-size: 6rem;
+    font-size: 6.4rem;
   }
 
   h5 {
     font-size: 2rem;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 60px;
+    margin-left: 5px;
   }
 
   p {
@@ -83,6 +88,12 @@ p {
   }
 
   .Icon img:hover {
-    border: 4px solid var(--secondary);
+    border: 3px solid var(--secondary);
+    background-color: var(--secondary);
+  }
+
+  .Icons {
+    margin-top: 3px;
+    margin-bottom: 105px;
   }
 }

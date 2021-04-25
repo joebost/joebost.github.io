@@ -52,6 +52,11 @@ export default function App() {
       <img className="Me" src={data.avatar} alt="me" />
       <h1>{data.name}</h1>
       <h5>Software Engineer</h5>
+      <div className="Icons">
+        <Icon {...icons.github} />
+        <Icon {...icons.linkedin} />
+        <Icon {...icons.email} />
+      </div>
       <p>
         Currently living in {data.location} working{" "}
         <a href={link.company}>{data.company}</a>.
@@ -67,9 +72,6 @@ export default function App() {
         Enjoy <a href={link.goodreads}>reading</a> and{" "}
         <a href={link.chess}>chess</a>.
       </p>
-      <Icon {...icons.github} />
-      <Icon {...icons.linkedin} />
-      <Icon {...icons.email} />
     </div>
   );
 }
