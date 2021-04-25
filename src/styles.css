@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@300&display=swap");
+
+:root {
+  --primary: rgb(254, 255, 230);
+  --secondary: rgb(204, 243, 255);
+  --bg: rgb(34, 34, 34);
+  background-color: var(--bg);
+}
+
+.App {
+  font-family: "Quicksand", sans-serif;
+  color: var(--primary);
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.Me {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  float: left;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+}
+
+p {
+  padding-left: 2px;
+}
