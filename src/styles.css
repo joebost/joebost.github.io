@@ -46,3 +46,43 @@ h5 {
 p {
   padding-left: 2px;
 }
+
+@media only screen and (min-width: 650px) {
+  .Me {
+    width: 200px;
+    border: 5px solid var(--primary);
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  h5 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    padding-left: 10px;
+  }
+
+  .Icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+  }
+
+  .Icon img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid var(--primary);
+    background-color: var(--primary);
+  }
+
+  .Icon img:hover {
+    border: 4px solid var(--secondary);
+  }
+}
