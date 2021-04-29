@@ -59,18 +59,18 @@ export default function App() {
       </div>
       <p>
         Currently living in {data.location} working{" "}
-        <a href={link.company}>{data.company}</a>.
+        <a href={link.company} target="_blank">{data.company}</a>.
       </p>
       <p>Lived in Charleston, SC.</p>
       <p>Majored in CS at Clemson University.</p>
       <p>
-        Worked on <a href={link.bgf}>big game fishing</a> boats on the east
+        Worked on <a href={link.bgf} target="_blank">big game sportfishing</a> boats on the east
         coast.
       </p>
       <p>Ran minecraft servers like Nextpvp & NextMC.</p>
       <p>
-        Enjoy <a href={link.goodreads}>reading</a> and{" "}
-        <a href={link.chess}>chess</a>.
+        Enjoy <a href={link.goodreads} target="_blank">reading</a> and{" "}
+        <a href={link.chess} target="_blank">chess</a>.
       </p>
     </div>
   );
@@ -79,7 +79,7 @@ export default function App() {
 function Icon(props: IconProps) {
   return (
     <div className="Icon">
-      <a href={props.link}>
+      <a href={props.link} target="_blank">
         <img id={props.id} src={props.src} alt={props.alt} />
       </a>
     </div>
