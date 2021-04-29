@@ -38,13 +38,42 @@ h1 {
 }
 
 h5 {
+  font-size: 1rem;
   padding-top: 0px;
   margin-top: 0px;
   margin-bottom: 10px;
+  float: left;
+  margin-right: 7px;
 }
 
 p {
   padding-left: 2px;
+}
+
+.Icon {
+  width: 15px;
+  height: auto;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.Icon img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid var(--primary);
+  background-color: var(--primary);
+}
+
+.Icon img:hover {
+  border: 3px solid var(--secondary);
+  background-color: var(--secondary);
+}
+
+.Icons {
+  margin-top: 1px;
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 680px) {
