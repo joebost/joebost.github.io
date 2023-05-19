@@ -15,7 +15,7 @@ const link = {
   chess: "https://www.chess.com/member/ddawnn",
   github: "https://github.com/joebost",
   linkedin: "https://www.linkedin.com/in/joe-bost/",
-  email: "mailto:joebost090@gmail.com"
+  email: "mailto:joebost.jobs@gmail.com"
 };
 
 interface IconProps {
