@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import "./styles.css";
 
 const data = {
